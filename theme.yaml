@@ -1,0 +1,12 @@
+# 配置详情请参考：https://docs.halo.run/zh/developer-guide/theme/config-files
+id: gitbook_dev
+name: gitbook_dev
+author:
+  name: YULIN
+  website: https://www.mqllin.cn
+description: 模仿gitbook风格主题
+logo: https://avatars.githubusercontent.com/u/48195280?s=200&v=4
+website: https://github.com/halo-dev/halo-theme-quick-starter
+repo: https://github.com/halo-dev/halo-theme-quick-starter
+version: 1.0.0
+require: 1.4.2

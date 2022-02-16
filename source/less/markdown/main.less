@@ -1,0 +1,36 @@
+@import "./mixin.less";
+
+:root {
+  --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --ifm-font-size-base: 100%;
+  --ifm-font-weight-light: 300;
+  --ifm-font-weight-normal: 400;
+  --ifm-font-weight-semibold: 500;
+  --ifm-font-weight-bold: 700;
+  --ifm-font-weight-base: var(--ifm-font-weight-normal);
+}
+
+.gitbook-markdown-body {
+  margin-bottom: 80px;
+  .gitbook-markdown();
+
+  pre {
+    //background: #2A2D3E;
+    //border-radius: 7px;
+    //color: #BFC7D5;
+
+    background: #F6F8FA;
+    border-radius: 7px;
+
+    code {
+      line-height: 22.4px;
+      font-size: 15.2px;
+      font-weight: 400;
+      font-family: var(--ifm-font-family-monospace);
+      font-style: normal;
+      direction: rtl;
+    }
+  }
+}
+
