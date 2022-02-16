@@ -1,5 +1,7 @@
-#Halo-theme-gitbook-dev
+# Halo-theme-gitbook-dev
+
 halo博客gitbook主题开发版项目工程
+
 请将本项目文件夹放到博客主题文件夹内。与其他主题文件同级
 - 1.npm install 
 - 本地开发：
